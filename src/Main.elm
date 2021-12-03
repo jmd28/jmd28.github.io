@@ -169,12 +169,7 @@ view model =
                                 [ h1 [style "font-size" "20rem"] [text "hi."]
                                 , h2 [class "pb-4"] [text 
                                 (toLower """
-                                I'm a 4th year computer science student studying at the University of St Andrews. 
-                                With any luck you're happening upon this page in hopes of employing a skilled young software developer. 
-                                That would be an ideal situation. Please give me work the interest rates are dead and the job market is dead 
-                                I'm running out of options and at this point all I want is to live out my days as a lighthouse keeper with 
-                                a woofer and try not to succomb to the calling of the waves as i rattle around the lonely halls with no other 
-                                souls in sight please give me work or I shall simply perish over an uncomfortably sustained period love you mum x
+                                I'm a 4th year computer science student studying at the University of St Andrews. I really enjoy music and coding.
                                 """)]
                                 ]
                     
@@ -209,7 +204,7 @@ view model =
                                 """
                                 , a [href "https://www.idris-lang.org/", target "_blank"] [text "Idris 2"]
                                 , text
-                                """ as part of a research internship. Idris 2 is a purely-functional programming language with dependent first-class types.
+                                """ as part of a research internship at the University of St Andrews. Idris 2 is a purely-functional programming language with dependent first-class types.
                                 I wrote several runtime performance benchmark programs to aid our optimising of a newly-written reference-counting compiler,
                                 written in C. I later compiled these into a benchmarking script which can be found in the main Idris 2
                                 """
@@ -248,8 +243,10 @@ view model =
                                 , a [href "https://elm-lang.org", target "_blank"] [text "Elm"]
                                 , text 
                                 """,
-                                a purely functional language designed for web. This was my first time using the language. You can check out the source code on my github if I ever upload it.
+                                a purely functional language designed for web. This was my first time using the language. You can check out the source code on my
                                 """
+                                , a [href "https://github.com/jmd28/elm-site", target "_blank"] [text "Github"]
+                                , text "."
                             ]
                             -- -- discord
                             , div [id "proj-disc", class "pb-4"] [
@@ -284,10 +281,10 @@ view model =
                                 """
                                 When I'm not busy in the computing labs I can usually be found with headphones on or a guitar in hand.
                                 I often work on transcriptions, orchestrations and arrangements of music both by commission and for fun. I
-                                play trumpet in the
+                                play trumpet in the Big Band of the University of St Andrews
                                 """
                                 , a [href "https://www.facebook.com/BigBandoftheUniversityofStAndrews", target "_blank"]
-                                 [text "big band of the university of st andrews (Big BUStA)"]
+                                 [text "(Big BUStA)"]
                                 , text
                                 """ and have appeared in numerous smaller bands, combos and orchestras over the years - which has taken me touring all across Europe.
                                 During the lockdowns of 2020 and 2021, I worked on producing the online video performances for Big BUStA, which involved
@@ -300,7 +297,7 @@ view model =
                                 , text 
                                 """
                                 I live in the middle of the southern pennines which makes getting out onto the hills and moors super accessible.
-                                I really enjoy taking some time to wind down amongst nature in all of its bleakness. The peak district is one of my favourite haunts.
+                                I'm a big fan of nature and windy rainy days. You know where you are with a rainy day.
                                 """
                             ]
 
