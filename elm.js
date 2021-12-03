@@ -13705,7 +13705,7 @@ var $rundis$elm_bootstrap$Bootstrap$CDN$stylesheet = A3(
 			$elm$html$Html$Attributes$href('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
 		]),
 	_List_Nil);
-var $author$project$Styles$stylesheet = $author$project$Utils$loadStylesheet('assets/global.css');
+var $author$project$Styles$stylesheet = $author$project$Utils$loadStylesheet('src/assets/global.css');
 var $elm$html$Html$Attributes$target = $elm$html$Html$Attributes$stringProperty('target');
 var $elm$html$Html$Attributes$width = function (n) {
 	return A2(

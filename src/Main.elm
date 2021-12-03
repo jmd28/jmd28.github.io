@@ -147,8 +147,8 @@ view model =
             , Styles.stylesheet -- inline link to global.css stylesheet
             , Utils.loadStylesheet "https://fonts.googleapis.com/icon?family=Material+Icons"
             , Grid.containerFluid []
-                [ Grid.row [] 
-                    [ Grid.col [Bootstrap.Grid.Col.xl12] 
+                [ Grid.row []
+                    [ Grid.col [Bootstrap.Grid.Col.xl12]
                         [ div [class "parallax", class "baba-img"] 
                             -- le header page
                             [ div 
