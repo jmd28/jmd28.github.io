@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Arvo");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.container-fluid {
+    /* override padding on main container which was causing it not to fit screen correctly */
+    padding: 0px;
+    /* hide the horizontal scrollbar that appears */
+    overflow: hidden;
+ }
+
+h1 {
+    font-family: 'Arvo', cursive;
+}
+
+h2, h3 {
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* module accordion cards */
+.modulecard .card-header .btn-link {
+    /* color: white; */
+    color: white;
+    text-decoration: underline;
+}
+
+.card-header {
+    background-color: rgba(0,0,0,0);
+    border-bottom: 0px;
+}
+
+.card-text {
+    margin-left: 0.9rem;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.modulecard {
+    /* color: white; */
+    background-color: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+}
+
+/* stop tab text disappearing on hover*/
+a:not([href]):not([tabindex]):hover {
+    color: #6591c4;
+}
+
+.jumbo-header h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+.jumbo-header h2 {
+    /* font-family: 'Indie Flower', cursive; */
+    color: white;
+    font-size: 2rem;
+}
+
+.jumbo-header h3 {
+    /* font-family: 'Indie Flower', cursive; */
+    color: white;
+    font-size: 1.75rem;
+}
+
+.chart {
+    position: relative;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* a small plant */
+.baba-img {
+    /* fallback to grey header if img dies */
+    background-color: #272727;
+    background-image: url("img/babaplant.jpg");
+    min-height: 100vh;
+}
+
+/* a bigga plant */
+.tree-img {
+    /* fallback to grey header if img dies */
+    background-color: #771d1d;
+    background-image: url("img/bigboyplant.jpg");
+    min-height: 50vh;
+}
+
+/* a bigga plant */
+.bilb-img {
+    /* fallback to grey header if img dies */
+    background-color: #432546;
+    background-image: url("img/bil.jpg");
+    min-height: 50vh;
+}
+
+/* stick images so we look like we know how to code lol */
+.parallax {
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* our header bar */
+.jumbo-header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 15%;
+}
+
+.text-block {
+    background-color: #771d1d;
+    color: white;
+}
+
+.link-div {
+    color: white;
+    font-size: 2rem;
+}
+
+
+/* yeet default styles on a tag */
+a:hover {
+    color:#4e679e; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+/* social links at end */
+.link-icon { 
+    font-size: 2rem !important;
+    color: white;
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 5px;
+    left: 5px;
+    padding-right: 1rem;
+      
+}
