@@ -14230,7 +14230,7 @@ var $author$project$Main$view = function (model) {
 																$elm$html$Html$img,
 																_List_fromArray(
 																	[
-																		$elm$html$Html$Attributes$src('assets/icon/GitHub-64px.png'),
+																		$elm$html$Html$Attributes$src('src/assets/icon/GitHub-64px.png'),
 																		$elm$html$Html$Attributes$width(32),
 																		$elm$html$Html$Attributes$height(32),
 																		$elm$html$Html$Attributes$class('ml-1'),

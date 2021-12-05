@@ -319,7 +319,7 @@ view model =
                                     ]
                                 -- github
                                 , a [class "link-div", href "https://github.com/jmd28", target "_blank"] 
-                                    [ img [src "assets/icon/GitHub-64px.png", width 32, height 32, class "ml-1", class "mr-2"] [] 
+                                    [ img [src "src/assets/icon/GitHub-64px.png", width 32, height 32, class "ml-1", class "mr-2"] [] 
                                     , text "GitHub"
                                     ]
                                 ]
