@@ -141,7 +141,7 @@ freddograph = [ C.chart
 view : Model -> Document Msg
 view model = 
     {
-        title = "james siq site",
+        title = "james diffley",
         body = 
             [ CDN.stylesheet -- inline link to Bootstrap CSS
             , Styles.stylesheet -- inline link to global.css stylesheet
@@ -297,16 +297,17 @@ view model =
                                 , text 
                                 """
                                 I live in the middle of the southern pennines which makes getting out onto the hills and moors super accessible.
-                                I'm a big fan of nature and windy rainy days. You know where you are with a rainy day.
+                                I'm a big fan of nature and windy rainy miserable days.
                                 """
                             ]
 
-                            -- freddo? lol
-                            , h2 [] [text "look at this graph"]
-                            , text "You can have five arbitrary points if you can guess what it shows"
-                            , div [class "chart"] 
-                                freddograph
+                            -- -- freddo? lol
+                            -- , h2 [] [text "look at this graph"]
+                            -- , text "You can have five arbitrary points if you can guess what it shows"
+                            -- , div [class "chart"] 
+                            --     freddograph
 
+                            -- ]
                             ]
                         , div [class "parallax", class "baba-img"]
                             [ div 
